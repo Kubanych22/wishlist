@@ -1,0 +1,13 @@
+.categories__item {
+  margin-bottom: 80px;
+}
+
+.categories__item:last-child {
+  margin-bottom: 0;
+}
+
+.categories__title {
+  font-weight: 400;
+  font-size: 50px;
+  margin-bottom: 38px;
+}

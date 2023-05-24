@@ -78,3 +78,8 @@ fieldset {
   border-radius: 15px;
   text-transform: capitalize;
 }
+
+.btn_castling {
+  color: #ffffff;
+  background: #365aba;
+}
