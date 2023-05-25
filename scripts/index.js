@@ -5,7 +5,9 @@ const app = document.querySelector('.app');
 
 const handleHomePage = () => {
   app.textContent = '';
+
   renderNavigation();
+
   const section = createHero();
   app.append(section);
 }
