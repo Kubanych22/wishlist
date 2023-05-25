@@ -8,9 +8,6 @@ const nav = document.querySelector('.nav');
 export const renderNavigation = () => {
   nav.textContent = '';
 
-  // <button className="nav__btn btn">Зарегистрироваться</button>
-  // <button className="nav__btn btn">Войти</button>
-
   const buttonSighUp = createElement('button', {
     className: 'nav__btn btn',
     textContent: 'Зарегистрироваться'

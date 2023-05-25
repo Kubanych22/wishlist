@@ -13,7 +13,7 @@ export const createHero = () => {
 
   const title = createElement('h1', {
     className: 'hero__title',
-    textContent: 'WishList'
+    innerHTML: '<span>Wish</span><span>List</span>'
   })
 
   const description = createElement('p', {
@@ -23,16 +23,13 @@ export const createHero = () => {
 
   const listSteps = createElement('ol', {
     className: 'hero__steps steps',
-    textContent: 'WishList'
-  })
+  });
 
-  let wishArray = [
-    'Создайте список желаний',
-    'Поделитесь ссылкой с&nbsp;друзьями',
-    'Получите желанный'
-  ];
-
-  wishArray.forEach((text) => {
+ [
+   'Получите желанный',
+   'Создайте список желаний',
+   'Поделитесь ссылкой с&nbsp;друзьями',
+ ].forEach((text) => {
     const step = createElement('li', {
       className: 'steps__item',
       innerHTML: text,
