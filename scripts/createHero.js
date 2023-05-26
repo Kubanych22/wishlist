@@ -26,9 +26,9 @@ export const createHero = () => {
   });
 
  [
-   'Получите желанный',
-   'Создайте список желаний',
-   'Поделитесь ссылкой с&nbsp;друзьями',
+  'Получите желанный',
+  'Создайте список желаний',
+  'Поделитесь ссылкой с&nbsp;друзьями',
  ].forEach((text) => {
     const step = createElement('li', {
       className: 'steps__item',
@@ -39,7 +39,7 @@ export const createHero = () => {
 
   });
 
-  section.append(title, description, listSteps);
+  container.append(title, description, listSteps);
 
   return section;
 }
