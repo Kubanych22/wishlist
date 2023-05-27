@@ -2,6 +2,7 @@ import {renderNavigation} from './renderNavigation.js';
 import {createHero} from './createHero.js';
 import {JWT_TOKEN_KEY} from './const.js';
 import {getLogin} from './getLogin.js';
+import {createWishlist} from './createWishlist.js';
 
 export const router = Router();
 
